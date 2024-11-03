@@ -1,0 +1,90 @@
+.wrapper-new {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  flex-direction: column;
+  padding: 0.5rem 0;
+}
+.about-me {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 70%;
+  padding: 1rem;
+}
+.heading h1 span {
+  color: #910a67;
+  font-weight: bolder;
+}
+.para p {
+  line-height: 2;
+  font-size: 1.3rem;
+}
+.resume-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  width: 30%;
+  padding: 1rem;
+  border-radius: 100px;
+  background: #910a67;
+}
+.resume-btn button {
+  outline: none;
+  font-size: 1.1rem;
+  background: transparent;
+  border: none;
+}
+.btn > button > a {
+  color: #fff;
+}
+/* Media queries */
+@media only screen and (max-width: 769px) {
+  .about-me {
+    width: 100%;
+  }
+  .para p {
+    font-size: 17px;
+  }
+  .heading h1 {
+    font-size: 25px;
+  }
+  .resume-btn {
+    width: 35%;
+    margin-top: .5rem;
+    height: 3rem;
+  }
+  .resume-btn button{
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 426px) {
+    .para p {
+        font-size: 14px;
+    }
+    .heading h1{
+        font-size: 20px;
+    }
+    .resume-btn{
+        width: 50%;
+    }
+    .resume-btn button{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 376px) {
+    .resume-btn{
+        width: 60%;
+    }
+    .resume-btn button{
+        font-size: 13px;
+    }
+    .about-me{
+        width: 100%;
+    }
+    .wrapper-new {
+        width: 100%;
+    }
+}

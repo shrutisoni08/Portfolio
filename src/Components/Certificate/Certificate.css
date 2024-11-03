@@ -1,0 +1,10 @@
+.slider-img img{
+    width: 100%;
+}
+.swiper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-top: 3rem;
+}

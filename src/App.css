@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  color: #ffff;
+}
+body {
+  background-color: #030637;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}

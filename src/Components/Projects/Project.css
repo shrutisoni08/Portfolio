@@ -1,0 +1,126 @@
+.personal-project-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.my-projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    padding: .5rem;
+}
+.project-card{
+    display: flex;
+    gap: 2rem;
+}
+.project-image{
+    flex:1;
+    flex-direction: column;
+    gap: 10px;
+}
+.project-image img{
+    width: 100%;
+}
+.project-info{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.project-info p{
+    font-size: 18px;
+}
+.project-info ul li {
+    list-style: square;
+}
+/* Custome */
+/* From Uiverse.io by nikk7007 */ 
+
+.btn {
+    --color: #fff;
+    --color2: #3D0753;
+    padding: 0.8em 1.75em;
+    background-color: transparent;
+    border-radius: 6px;
+    border: .3px solid;
+    transition: .5s;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 1;
+    font-weight: 500;
+    font-size: 17px;
+    font-family: 'Roboto', 'Segoe UI', sans-serif;
+    text-transform: uppercase;
+    color: var(--color);
+   }
+   
+   .btn::after, .btn::before {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    transform: skew(90deg) translate(-50%, -50%);
+    position: absolute;
+    inset: 50%;
+    left: 25%;
+    z-index: -1;
+    transition: .5s ease-out;
+    background-color:  #3D0753;
+   }
+   
+   .btn::before {
+    top: -50%;
+    left: -25%;
+    transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
+   }
+   
+   .btn:hover::before {
+    transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
+   }
+   
+   .btn:hover::after {
+    transform: skew(45deg) translate(-50%, -50%);
+   }
+   
+   .btn:hover {
+    color: var(--color2);
+   }
+   
+   .btn:active {
+    filter: brightness(.7);
+    transform: scale(.98);
+   }
+   
+/* Custome */
+/* Media Queries */
+@media only screen and (max-width:769px) {
+    .project-card{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width:769px) {
+    .project-card{
+        display: flex;
+        flex-direction: column;
+    }
+    .btn{
+        font-size: 14px;
+    }
+    .project-info p {
+        font-size: 15px;
+    }
+    .project-info ul li{
+        font-size: 14px;
+    }
+    .personal-project-container{
+        width: 100%;
+        padding: 1rem;
+    } 
+}
