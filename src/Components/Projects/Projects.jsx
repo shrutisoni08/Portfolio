@@ -156,11 +156,73 @@ const Projects = () => {
           <div className="my-projects">
             <div className="project-card">
               <div className="project-image">
+                <img src={blog} alt="" />
+                <div className="butn">
+                  <button className="btn" type="submit">
+                    <a
+                      href="https://fashion-plaza.netlify.app/"
+                      target="_blank"
+                    >
+                      Visit Site
+                    </a>
+                  </button>
+                </div>
+              </div>
+              <div className="project-info">
+                <p>
+                  Fashion Plaza: Your Style Destination Elevate Your Style
+                  Discover the latest trends and timeless classics at Fashion
+                  Plaza. We&#39;re your one-stop shop for all your fashion
+                  needs, offering a curated selection of clothing, accessories,
+                  and footwear.
+                </p>
+                <p>
+                  <b>Project Highlights :</b>
+                </p>
+                <ul>
+                  <li>
+                    We&#39;ve incorporated captivating animations and
+                    interactive elements to enhance your shopping experience.
+                    From smooth product transitions to engaging visual effects,
+                    every detail has been carefully considered to create a
+                    visually stunning and immersive online store.
+                  </li>
+                  <li>
+                    Responsive Design: By leveraging Bootstrap’s robust
+                    responsive framework, the web page is fully adaptable to
+                    various screen sizes and devices. Whether accessed on a
+                    desktop, tablet, or smartphone, the clone ensures a
+                    consistent and seamless user experience across all
+                    platforms.
+                  </li>
+                  <li>
+                    Enhanced User Experience: Special attention was given to the
+                    user interface to ensure that the clone not only looks like
+                    myTunes but also functions with the same level of ease and
+                    intuitiveness. Smooth transitions, quick load times, and an
+                    organized layout contribute to a user-friendly environment.
+                  </li>
+                </ul>
+                <p>
+                  Stay up-to-date with the latest trends, exclusive offers, and
+                  behind-the-scenes insights by following us on social media.
+                  Engage with our community of fashion enthusiasts, share your
+                  style, and inspire others.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* 4th */}
+          <hr />
+          <div className="my-projects">
+            <div className="project-card">
+              <div className="project-image">
                 <img src={EcomWeb} alt="" />
                 <div className="butn">
                   <button className="btn" type="submit">
                     <a
-                      href="https://shrutisoni08.github.io/myTunes/"
+                      href="https://pawparadisepethub.netlify.app/"
                       target="_blank"
                     >
                       Visit Site
@@ -210,78 +272,6 @@ const Projects = () => {
                   functionalities, this e-commerce website offers a smooth,
                   enjoyable shopping experience for pet owners while maintaining
                   efficient backend operations for the store’s management.
-                </p>
-              </div>
-            </div>
-          </div>
-          {/* 4th */}
-          <hr />
-          <div className="my-projects">
-            <div className="project-card">
-              <div className="project-image">
-                <img src={blog} alt="" />
-                <div className="butn">
-                  <button className="btn" type="submit">
-                    <a
-                      href="https://shrutisoni08.github.io/myTunes/"
-                      target="_blank"
-                    >
-                      Visit Site
-                    </a>
-                  </button>
-                </div>
-              </div>
-              <div className="project-info">
-                <p>
-                  Introducing a highly detailed and meticulously crafted clone
-                  of the renowned myTunes web page, developed with a strong
-                  focus on design precision and user experience. This project
-                  was built using HTML, CSS, and Bootstrap, capturing the
-                  essence of myTunes&#39; sleek design and intuitive
-                  functionality.
-                </p>
-                <p>
-                  <b>Project Highlights :</b>
-                </p>
-                <ul>
-                  <li>
-                    Accurate Replication: The clone mirrors the layout,
-                    aesthetics, and overall feel of the original myTunes
-                    platform, providing users with a browsing experience that is
-                    both familiar and engaging. Every element, from the
-                    navigation menu to the music catalog display, has been
-                    carefully reproduced to maintain the authenticity of the
-                    original design.
-                  </li>
-                  <li>
-                    Responsive Design: By leveraging Bootstrap’s robust
-                    responsive framework, the web page is fully adaptable to
-                    various screen sizes and devices. Whether accessed on a
-                    desktop, tablet, or smartphone, the clone ensures a
-                    consistent and seamless user experience across all
-                    platforms.
-                  </li>
-                  <li>
-                    Technical Implementation: The project showcases advanced use
-                    of HTML for structured content, CSS for styling and visual
-                    effects, and Bootstrap for responsive grid layout and
-                    components. Custom CSS was also utilized to fine-tune the
-                    design and achieve pixel-perfect alignment with the original
-                    myTunes page.
-                  </li>
-                  <li>
-                    Enhanced User Experience: Special attention was given to the
-                    user interface to ensure that the clone not only looks like
-                    myTunes but also functions with the same level of ease and
-                    intuitiveness. Smooth transitions, quick load times, and an
-                    organized layout contribute to a user-friendly environment.
-                  </li>
-                </ul>
-                <p>
-                  This myTunes clone stands as a testament to the power of
-                  modern web technologies in recreating sophisticated
-                  interfaces, providing users with a polished, reliable, and
-                  enjoyable platform for discovering and enjoying music.
                 </p>
               </div>
             </div>
