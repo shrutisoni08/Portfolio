@@ -1,7 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import "./About.css";
-import { GrDocumentPdf } from "react-icons/gr";
 import Skills from "../Skills/Skills";
 import Certificate from "../Certificate/Certificate";
 const About = () => {
@@ -36,20 +35,6 @@ const About = () => {
                 team that values creativity and collaboration.
               <br />   Let’s connect and explore how I can bring value to your projects!
               </p>
-            </div>
-            <div className="resume-btn">
-              <div className="icon">
-                <i>
-                  <GrDocumentPdf />
-                </i>
-              </div>
-              <div className="butn">
-                <button>
-                  <a href="#" download>
-                    Download Resume
-                  </a>
-                </button>
-              </div>
             </div>
           </div>
         </div>
