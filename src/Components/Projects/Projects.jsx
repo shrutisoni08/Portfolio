@@ -93,7 +93,7 @@ const Projects = () => {
                 <div className="butn">
                   <button className="btn" type="submit">
                     <a
-                      href="https://shrutisoni08.github.io/myTunes/"
+                      href="https://shrutisoni08.github.io/Quiz-Buzz/index.html"
                       target="_blank"
                     >
                       Visit Site

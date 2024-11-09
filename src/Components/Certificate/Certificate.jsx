@@ -8,11 +8,13 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-import img1 from "../../../public/assets/Images/Certificates/Certificate - INTERNSHIP.png";
-import img2 from "../../../public/assets/Images/Certificates/Certificate - HTML.png";
-import img3 from "../../../public/assets/Images/Certificates/Certificate - CSS.png";
-import img4 from "../../../public/assets/Images/Certificates/Certificate - JAVASCRIPT.png";
-import img5 from "../../../public/assets/Images/Certificates/Certificate - REACT.png";
+import img3 from "../../../public/assets/Images/Certificates/Certificate - INTERNSHIP.png";
+import img4 from "../../../public/assets/Images/Certificates/Certificate - HTML.png";
+import img5 from "../../../public/assets/Images/Certificates/Certificate - CSS.png";
+import img6 from "../../../public/assets/Images/Certificates/Certificate - JAVASCRIPT.png";
+import img7 from "../../../public/assets/Images/Certificates/Certificate - REACT.png";
+import img2 from "../../../public/assets/Images/Certificates/FSDInternship.png";
+import img1 from "../../../public/assets/Images/Certificates/certificateFSD.png";
 
 function Certificate() {
   return (
@@ -33,7 +35,7 @@ function Certificate() {
             onSwiper={(swiper) => console.log(swiper)}
             onSlideChange={() => console.log("slide change")}
           >
-            <SwiperSlide className="slider-img">
+               <SwiperSlide className="slider-img">
               <img src={img1} alt="" />
             </SwiperSlide>
             <SwiperSlide className="slider-img">
@@ -47,6 +49,12 @@ function Certificate() {
             </SwiperSlide>
             <SwiperSlide className="slider-img">
               <img src={img5} alt="" />
+            </SwiperSlide>
+            <SwiperSlide className="slider-img">
+              <img src={img6} alt="" />
+            </SwiperSlide>
+            <SwiperSlide className="slider-img">
+              <img src={img7} alt="" />
             </SwiperSlide>
           </Swiper>
         </div>
